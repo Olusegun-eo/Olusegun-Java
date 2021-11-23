@@ -1,0 +1,7 @@
+africa\semicolon\jijiApplication\Main.class
+africa\semicolon\jijiApplication\data\repositories\ListingRepository.class
+africa\semicolon\jijiApplication\data\models\Type.class
+africa\semicolon\jijiApplication\data\models\Listing.class
+africa\semicolon\jijiApplication\data\repositories\ListerRepository.class
+africa\semicolon\jijiApplication\data\models\Conditon.class
+africa\semicolon\jijiApplication\data\models\Lister.class
