@@ -18,12 +18,12 @@ public class StringMethods {
         System.out.printf("StringLength: %d", string.length());
 
         System.out.println();
-        // loop through characters in s1 with charAt and display reversed
+        // loop through characters in string with charAt and display reversed
         for (int i = 0; i < string.length(); i++) {
             System.out.println("Each Character is: " + string.charAt(i));
         }
 
-        // loop through characters in s1 with charAt and display reversed
+        // loop through characters in string with charAt and display reversed
         for (int count = string.length()-1; count >=0 ; count--) {
             System.out.printf(" %s", string.charAt(count));
         }
@@ -38,7 +38,7 @@ public class StringMethods {
 //        OR
 
         for (char character : charArray ){
-            System.out.println(character);
+            System.out.print(character);
         }
     }
 }

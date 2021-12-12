@@ -1,4 +1,7 @@
-package chapterSixteen.creatingOurGenericClasses;
+package chapterSixteen.creatingOurGenericClasses.addingPlayerToDiffSportTeam;
 
-public class FootBallPlayer {
+public class FootBallPlayer extends Player{
+    public FootBallPlayer(String playerName) {
+        super(playerName);
+    }
 }

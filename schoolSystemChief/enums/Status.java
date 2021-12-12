@@ -1,2 +1,5 @@
-package schoolSystemChief.enums;public enum Status {
+package schoolSystemChief.enums;
+
+public enum Status {
+    ACTIVE, INACTIVE
 }

@@ -1,2 +1,4 @@
-package schoolSystemChief.enums;public enum Gender {
+package schoolSystemChief.enums;
+
+public enum Gender {
 }

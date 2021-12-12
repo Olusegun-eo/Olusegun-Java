@@ -3,8 +3,7 @@ package chapterSeven;
 import java.util.Scanner;
 
 public class StudentRecord {
-<<<<<<< HEAD
-    
+
     private static int numberOfStudents, numberOfSubjects;
 
     public static void main(String[] args) {
@@ -55,7 +54,6 @@ public class StudentRecord {
                 System.out.print(arrayOfScores[countStudents][countSubjects] + " ");
         }
         System.out.println();
-    }
 
 }
 
@@ -267,17 +265,15 @@ public class StudentRecord {
             System.out.println();
         }
 */
-=======
     public static void displaySummaryOfResult(int [][] arrayOfStudents){
         System.out.println("Result:");
 //        inputNumberOfStudentsAndNumberOfSubjects(arrayOfStudents);
         supplyNumberOfStudents(arrayOfStudents);
-        for(int countStudents=0; countStudents<userNumberOfStudents+1; countStudents++){
-            for(int countSubjects=0; countSubjects<userNumberOfSubjects+1;countSubjects++){
-                System.out.printf("%5d", arrayOfStudents[countStudents][countSubjects]);
+//        for(int countStudents=0; countStudents<userNumberOfStudents+1; countStudents++){
+//            for(int countSubjects=0; countSubjects<userNumberOfSubjects+1;countSubjects++){
+//                System.out.printf("%5d", arrayOfStudents[countStudents][countSubjects]);
             }
-            System.out.println();
-        }
-    }
+//            System.out.println();
+
+
 }
->>>>>>> 08a78a1a85d8492383289b7b21fb490d24152c56

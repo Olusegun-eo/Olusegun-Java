@@ -1,9 +1,13 @@
-package chapterSixteen.creatingOurGenericClasses;
+package chapterSixteen.creatingOurGenericClasses.addingPlayerToDiffSportTeam;
 
-public class Player {
-    private String playerId;
+public abstract class Player {
+    private String playerName;
 
-    public Player(String playerId) {
-        this.playerId = playerId;
+    public Player(String playerName) {
+        this.playerName = playerName;
+    }
+
+    public String getPlayerName() {
+        return playerName;
     }
 }
