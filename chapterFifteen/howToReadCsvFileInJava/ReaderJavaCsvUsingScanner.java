@@ -11,7 +11,7 @@ This class also breaks the data in the form of tokens.
 There is a delimiter pattern, which, by default, matches white space.
 Then, using different types of next() methods, we can convert the resulting tokens.
  */
-public class CsvReaderUsingScanner {
+public class ReaderJavaCsvUsingScanner {
     public static void main(String[] args) {
         try{
             //parsing a CSV file into the constructor of Scanner class

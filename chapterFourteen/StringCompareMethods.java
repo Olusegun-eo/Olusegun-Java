@@ -15,6 +15,8 @@ public class StringCompareMethods {
         System.out.println(string);
 
 
+        System.out.println();
+
         System.out.printf("string = %s%nstringOne = %s%nstringTwo = %s%nstringThree = %s", string, stringOne, stringTwo, stringThree);
         System.out.println();
 
@@ -26,7 +28,7 @@ public class StringCompareMethods {
             System.out.printf("the input does not match \"Hello Friend\"", string);
         }
 
-
+        System.out.println();
 
         if(string == "Hello Friend"){
             System.out.println("The input is the same with \"Hello Friend\"");
@@ -34,6 +36,7 @@ public class StringCompareMethods {
             System.out.println("The input mismacth");
         }
 
+        System.out.println();
 //        Test for Equality with ignore case
 
         if(stringTwo.equalsIgnoreCase(stringThree)){
@@ -44,6 +47,8 @@ public class StringCompareMethods {
         }
 
 //        Test compareTo
+
+        System.out.println("THE RESULT OF COMPARETO METHODS");
 
         System.out.printf("%nstring.compareTo(stringThree) is %d", stringTwo.compareTo(stringTwo));
         System.out.printf("%nstringTwo.compareTo(stringThree) is %d", stringTwo.compareTo(stringThree));
@@ -57,5 +62,6 @@ public class StringCompareMethods {
         }else{
             System.out.println("The input does not match");
         }
+        
     }
 }
