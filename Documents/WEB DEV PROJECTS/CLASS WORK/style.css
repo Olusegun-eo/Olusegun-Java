@@ -1,0 +1,73 @@
+
+        *{
+            background-color: aliceblue;
+            margin: 20px 20px 15px 15px;
+        }
+    
+        .main{
+            font-size: 15pt;
+            color: black;
+        }
+        h1{
+            font-size: 50px;
+            /* color: cyan; */
+            background-color:rgb(129, 116, 103);
+            margin: 30px;
+            text-align: center;
+        }
+
+        h2{
+            font-size: 35pt;
+            margin: 35px;
+            font-weight: bolder;
+            color: rebeccapurple;
+        }
+
+        a{
+            margin-right: 20px 20px 15px 10px;
+        }
+        .mainDiv{
+            background-color: rgb(233, 229, 224);
+            font-size: 30pt;
+        }
+
+        /* tittle Attributes */
+
+        [title]{
+            cursor: help;
+            padding-bottom: 5px;
+            border-bottom: 2px dotted blue;
+            text-decoration: none;
+        }
+
+        #CA[title]{
+            cursor: help;
+            padding-bottom: 5px;
+            border-bottom: 2px dotted blue;
+            /* text-decoration: none; */
+        }
+
+
+        /* Psuedo-Element and Pseudo-Class Selector */
+
+        a:link{
+            text-decoration: underline;
+            color: blue;
+        }
+
+        /* Psuedo-Element and Pseudo-Class Selector= When visited */
+        a:visited{
+            text-decoration: underline;
+            color: purple;
+        }
+
+        /* Psuedo-Element and Pseudo-Class Selector= When hover */
+        a:hover{
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        /* Psuedo-Element and Pseudo-Class Selector= Once click */
+        a:active{
+            background-color: yellow;
+        }
