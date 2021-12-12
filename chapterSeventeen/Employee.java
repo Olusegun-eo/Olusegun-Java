@@ -1,19 +1,14 @@
 package chapterSeventeen;
 
-public class Enployee {
-    public static void main(String[] args) {
+public class Employee {
 
-    }
-
-
-
-            private String firstName;
+    private String firstName;
          private String lastName;
          private double salary;
          private String department;
 
          // constructor
-         public Enployee(String firstName, String lastName, double salary, String department) {
+         public Employee(String firstName, String lastName, double salary, String department) {
          this.firstName = firstName;
          this.lastName = lastName;
          this.salary = salary;
