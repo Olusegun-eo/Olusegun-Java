@@ -1,0 +1,15 @@
+*{
+    margin: 10px;
+    padding: 20px;
+}
+
+
+
+tbody tr:hover{
+    background-color: red;
+}
+
+tbody tr{
+    color: black;
+    text-emphasis-color: black;
+}

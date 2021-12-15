@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 10px;
+    /* background-color: rgb(87, 82, 82); */
+}
+
+.caption{
+    font: 50px;
+    font-weight: 100;
+}
+
+table{
+    border-top: 3px;
+    border: 30px;
+}
+
+.tableHeader{
+    color: aliceblue;
+    font-size: 20px;
+}
+
+.firstRow{
+    background-color: red;
+    font: 50px;
+}
+
+/* All tr */
+tbody tr:hover{
+    background-color: #9e9e9e;
+    color: red;
+}
+
+/* tr2, tr4, tr6 */
+tbody tr:nth-child(even){
+    background-color: lightgray;
+}

@@ -1,0 +1,28 @@
+
+        *{
+            background-color: red;
+            margin: 20px 20px 15px 15px;
+        }
+    
+        .main{
+            font-size: 30pt;
+            color: black;
+        }
+        h1{
+            font-size: 50px;
+            /* color: cyan; */
+            background-color:antiquewhite;
+            margin: 30px;
+            text-align: center;
+        }
+
+        h2{
+            font-size: 35pt;
+            margin: 35px;
+            font-weight: bolder;
+            color: rebeccapurple;
+        }
+
+        a{
+            margin-right: 20px 20px 15px 10px;
+        }
