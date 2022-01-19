@@ -1,0 +1,6 @@
+Routing refers to the mechanism for serving the client the content it has asked for. For web-based client/server applications, the client specifies the desired content in the URL;
+
+
+2:
+Let’s serve: a really minimal website consisting of a home page, an About page, and a Not Found page. For now, we’ll stick with our previous example and just serve plaintext instead of
+HTML:
