@@ -1,0 +1,3 @@
+Opening Node==>...work of opening the file, reading it, and
+then sending its contents along to the browser.
+Serving Static resoucre requires you to install Nginx or CDN
